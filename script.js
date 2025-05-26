@@ -50,7 +50,7 @@ submitBtn.addEventListener("click", function(){
 
       const cell = e.target;
       const index = parseInt(cell.id) - 1;
-      const symbol = currentPlayer === 0 ? "X" : "O";
+      const symbol = currentPlayer === 0 ? "x" : "o";
 
       cell.textContent = symbol;
       moves[index] = symbol;
